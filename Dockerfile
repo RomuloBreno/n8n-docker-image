@@ -9,9 +9,3 @@ RUN apk add --no-cache ffmpeg
 
 # Volta para o usuário padrão do n8n
 USER node
-
-# Porta padrão do n8n
-EXPOSE 5678
-
-# Comando de inicialização
-CMD ["n8n"]
